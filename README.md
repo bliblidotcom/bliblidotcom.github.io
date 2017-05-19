@@ -7,7 +7,7 @@
 [![GitHub Contributors](https://img.shields.io/github/contributors/bliblidotcom/bliblidotcom.github.io.svg)](https://github.com/bliblidotcom/bliblidotcom.github.io/network/members)
 
 
-![Blibli.com Engineering](https://bliblidotcom.github.io/assets/images/logo-blibli.png)
+![Blibli.com Engineering](https://raw.githubusercontent.com/bliblidotcom/bliblidotcom.github.io/master/assets/images/logo-blibli.png)
 
 
 Copyright © 2017 - Blibli.com
