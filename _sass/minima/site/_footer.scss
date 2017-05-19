@@ -16,20 +16,16 @@ $column-count: 12 !default;
     }
     &__block {
         @extend .col-2;
-        
         h2 {
             font-size: 1.4rem;
             font-weight: bold;
             font-style: normal;
             text-transform: uppercase;
         }
-
         &--socmed {
             @extend .col-12;
-
             padding: 15px;
             text-align: center;
-
             .footer__icon {
                 display: block;
                 width: 35px;
@@ -38,46 +34,6 @@ $column-count: 12 !default;
                 text-align: center;
                 border: 2px solid;
                 border-radius: 100%;
-                &--fb {
-                    color: #3b5998;
-                    border-color: #3b5998;
-                    &:hover {
-                        color: #fff;
-                        background-color: #3b5998;
-                    }
-                }
-                &--tw {
-                    color: #55acee;
-                    border-color: #55acee;
-                    &:hover {
-                        color: #fff;
-                        background-color: #55acee;
-                    }
-                }
-                &--gp {
-                    color: #d03324;
-                    border-color: #d03324;
-                    &:hover {
-                        color: #fff;
-                        background-color: #d03324;
-                    }
-                }
-                &--yt {
-                    color: #ee4023;
-                    border-color: #ee4023;
-                    &:hover {
-                        color: #fff;
-                        background-color: #ee4023;
-                    }
-                }
-                &--it {
-                    color: #6a453c;
-                    border-color: #6a453c;
-                    &:hover {
-                        color: #fff;
-                        background-color: #6a453c;
-                    }
-                }
             }
         }
         &--app {
@@ -102,10 +58,77 @@ $column-count: 12 !default;
     &__bottom {
         padding: 15px;
     }
-    &__info {    
+    &__info {
         font-size: 1.2rem;
         padding: 10px 15px;
         text-align: center;
         background: #f2f2f2;
+    }
+}
+
+.icon {
+    &--fb {
+        color: #3b5998;
+        border-color: #3b5998;
+        &:hover {
+            color: #fff;
+            background-color: #3b5998;
+        }
+    }
+    &--tw {
+        color: #55acee;
+        border-color: #55acee;
+        &:hover {
+            color: #fff;
+            background-color: #55acee;
+        }
+    }
+    &--gp {
+        color: #d03324;
+        border-color: #d03324;
+        &:hover {
+            color: #fff;
+            background-color: #d03324;
+        }
+    }
+    &--yt {
+        color: #ee4023;
+        border-color: #ee4023;
+        &:hover {
+            color: #fff;
+            background-color: #ee4023;
+        }
+    }
+    &--it {
+        color: #6a453c;
+        border-color: #6a453c;
+        &:hover {
+            color: #fff;
+            background-color: #6a453c;
+        }
+    }
+    &--in {
+        color: #0077b5;
+        border-color: #0077b5;
+        &:hover {
+            color: #fff;
+            background-color: #0077b5;
+        }
+    }
+    &--gh {
+        color: #000;
+        border-color: #000;
+        &:hover {
+            color: #fff;
+            background-color: #000;
+        }
+    }
+    &--rss {
+        color: #f60;
+        border-color: #f60;
+        &:hover {
+            color: #fff;
+            background-color: #f60;
+        }
     }
 }
