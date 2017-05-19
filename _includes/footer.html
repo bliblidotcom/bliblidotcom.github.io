@@ -58,7 +58,7 @@
                         <p><span class="bli-cc-email"></span> customer.care@blibli.com</p>
                     </div>
                 </nav>
-                <nav class="footer__block--app">
+                <nav class="footer__block footer__block--app">
                     <h2>Unduh Aplikasi</h2>
 
                     <a class="footer__link" href="https://itunes.apple.com/id/app/blibli.com/id1034231507?l=id&mt=8" target="_blank"><img src="/assets/images/ic_app_store.jpg"/></a>
@@ -73,18 +73,19 @@
     </div>
     <div class="footer__bottom clearfix">
         <nav class="footer__block footer__block--socmed">
-            <h2>Ikuti Kami di Sosial Media:</h2>
+            <h2>Ikuti Kami di Sosial Media</h2>
             <ul class="footer__menu footer__menu--inline">
-                <li class="footer__item">
-                    <a id="gdn-facebook" rel="nofollow" target="_blank" href="https://www.facebook.com/bliblidotcom" class="footer__icon footer__icon--fb"><i class="bli-facebook"></i></a></li>
-                <li class="footer__item">
-                    <a id="gdn-twitter" rel="nofollow" target="_blank" href="https://twitter.com/bliblidotcom" class="footer__icon footer__icon--tw"><i class="bli-twitter"></i></a></li>
-                <li class="footer__item">
-                    <a id="gdn-google-plus" rel="nofollow" target="_blank" href="https://plus.google.com/+BliblidotcomOfficial" class="footer__icon footer__icon--gp"><i class="bli-google-plus"></i></a></li>
-                <li class="footer__item">
-                    <a id="gdn-youtube" rel="nofollow" target="_blank" href="http://www.youtube.com/user/bliblidotcom" class="footer__icon footer__icon--yt"><i class="bli-youtube"></i></a></li>
-                <li class="footer__item">
-                    <a id="gdn-instagram" rel="nofollow" target="_blank" href="https://www.instagram.com/bliblidotcom" class="footer__icon footer__icon--it"><i class="bli-instagram"></i></a></li>
+
+                {% for sosial in site.data.sosial_media %}
+                    <li class="footer__item">
+                        <a rel="nofollow" title="{{ sosial.media }}" 
+                            target="_blank" href="{{ sosial.href }}" 
+                            class="footer__icon {{ sosial.custom_class }}">
+                            <i class="{{ sosial.icon }}"></i>
+                        </a>
+                    </li>
+                {% endfor %}
+
             </ul>
         </nav>
     </div>

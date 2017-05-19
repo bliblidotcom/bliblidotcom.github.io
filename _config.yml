@@ -6,7 +6,7 @@ baseurl: ""
 url: "https://bliblidotcom.github.io/"
 lang: id
 logo_url: /assets/images/logo-blibli.png
-logo_square_url: /assets/images/logo/logo-blibli-no-word.png
+logo_square_url: /assets/images/logo-blibli-no-word.png
 
 excerpt_separator: <a name='more'></a>
 paginate: 5
@@ -31,7 +31,7 @@ exclude:
 # SASS setup
 sass:
   sass_dir: _sass
-  # style: compressed
+  style: compressed
 
 # autoprefixer
 autoprefixer:
