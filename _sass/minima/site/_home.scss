@@ -1,0 +1,41 @@
+// Title
+.title {
+    font-size: 2em;
+    line-height: 3;
+    font-weight: bold;
+}
+
+
+// Blogs
+.blogs {
+    padding: 3em 0;
+
+    .article {
+        padding: 20px;
+        margin-bottom: 10px;
+        border: 1px solid lighten($grey, 30%);
+        background-color: #fff;
+
+        &__title {
+            font-size: 22px;
+        }
+        &__description {
+            text-align: justify;
+            color: $grey;
+            line-height: 1.5;
+        }
+        &__button a {
+            padding: 8px;
+            color: #fff;
+            display: block;
+            position: relative;
+            margin-top: 10px;
+        }
+        &__feature{
+            height: 250px;
+            width: auto;
+            max-width: 100%;
+            margin: 1em 0;
+        }
+    }
+}

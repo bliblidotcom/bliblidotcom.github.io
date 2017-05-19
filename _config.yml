@@ -1,0 +1,40 @@
+title: Blibli.com Engineering
+email: ""
+description: > 
+  Blibli.com Engineering Blog
+baseurl: "" 
+url: "https://bliblidotcom.github.io/"
+lang: id
+logo_url: /assets/images/logo-blibli.png
+logo_square_url: /assets/images/logo/logo-blibli-no-word.png
+
+excerpt_separator: <a name='more'></a>
+paginate: 5
+disqus:
+   shortname: 
+google_analytics: 
+copyright_year: 2017
+
+highlighter: rouge
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-autoprefixer
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# SASS setup
+sass:
+  sass_dir: _sass
+  # style: compressed
+
+# autoprefixer
+autoprefixer:
+  only_production: true
+  browsers:
+  - last 2 versions

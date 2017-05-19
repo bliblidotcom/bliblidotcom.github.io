@@ -1,0 +1,34 @@
+- icon: "bli-facebook"
+  media: "Facebook"
+  href: "https://www.facebook.com/bliblidotcom"
+  custom_class: "is--fb"
+
+- icon: "bli-twitter"
+  media: "Twitter"
+  href: "https://twitter.com/bliblidotcom"
+  custom_class: "is--tw"
+
+- icon: "bli-google-plus"
+  media: "Google Plus"
+  href: "https://plus.google.com/+BliblidotcomOfficial"
+  custom_class: "is--gp"
+
+- icon: "bli-youtube"
+  media: "Youtube"
+  href: "http://www.youtube.com/user/bliblidotcom"
+  custom_class: "is--yt"
+
+- icon: "bli-instagram"
+  media: "Instagram"
+  href: "https://www.instagram.com/bliblidotcom"
+  custom_class: "is--is"
+
+- icon: "ion-social-github"
+  media: "Github"
+  href: "https://github.com/bliblidotcom"
+  custom_class: "is--gh"
+
+- icon: "ion-social-rss"
+  media: "RSS Feed"
+  href: "/feed.xml"
+  custom_class: "is--rss"
