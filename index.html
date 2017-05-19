@@ -1,0 +1,43 @@
+---
+layout: home
+---
+
+<!-- Blogs -->
+<section class="container blogs">
+
+	<div class="row">
+		{% assign sorted = (paginator.posts | sort: 'date' | reverse) %}
+	  	{% for post in sorted %}
+			<div class="col-4">
+				<div class="article">
+
+					<div class="article__title">
+						<a class="post__link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+					</div>
+
+					<div class="meta">
+						{% if post.author %}
+							<div class="meta__item meta__item--author">
+								<i class="ion-person"></i> {{ post.author }}
+							</div>
+						{% endif %}
+
+						<div class="meta__item">
+							<i class="ion-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}
+						</div>		
+					</div>
+
+					<img src="{{ post.feature_image }}" class="article__feature">
+
+					<div class="article__description">
+						{{ post.excerpt | strip_html | normalize_whitespace | truncate: 240 | escape }}
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+		
+		{% include paginator.html %}
+	</div>
+</section>
+
+

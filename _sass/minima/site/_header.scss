@@ -1,0 +1,46 @@
+
+.header {
+
+    background: #fff;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    height: 5em;
+    @include transition(all 0.2s ease-in-out);
+    @include box-shadow(0 1px 10px 2px rgba(0,0,0,0.2));
+
+
+    &__wrapper
+    {
+        width: 90%;
+        height: 5em;
+        margin: 0 auto;
+        
+        @include flex();
+    }
+
+    &__brand
+    {
+        @include flex();
+
+        img
+        {
+            height: 3em;
+        }
+    }
+
+    $desktop : 768 !default;
+    
+    &__title
+    {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-left: .5em;
+
+        @media only screen and (max-width: #{$desktop}px) {
+            display: none;
+        }
+    }
+
+}

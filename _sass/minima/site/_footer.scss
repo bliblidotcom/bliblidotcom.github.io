@@ -1,0 +1,111 @@
+$column-count: 12 !default;
+.footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    &__inner {
+        background: url('/assets/images/footer-pattern.png') 0 bottom repeat-x;
+        &-content {
+            padding: 40px;
+            border-bottom: 1px solid #ccc;
+        }
+    }
+    &__container {
+        padding-bottom: 80px;
+    }
+    &__block {
+        @extend .col-2;
+        
+        h2 {
+            font-size: 1.4rem;
+            font-weight: bold;
+            font-style: normal;
+            text-transform: uppercase;
+        }
+
+        &--socmed {
+            @extend .col-12;
+
+            padding: 15px;
+            text-align: center;
+
+            .footer__icon {
+                display: block;
+                width: 35px;
+                margin-right: 2px;
+                padding: 8px 0;
+                text-align: center;
+                border: 2px solid;
+                border-radius: 100%;
+                &--fb {
+                    color: #3b5998;
+                    border-color: #3b5998;
+                    &:hover {
+                        color: #fff;
+                        background-color: #3b5998;
+                    }
+                }
+                &--tw {
+                    color: #55acee;
+                    border-color: #55acee;
+                    &:hover {
+                        color: #fff;
+                        background-color: #55acee;
+                    }
+                }
+                &--gp {
+                    color: #d03324;
+                    border-color: #d03324;
+                    &:hover {
+                        color: #fff;
+                        background-color: #d03324;
+                    }
+                }
+                &--yt {
+                    color: #ee4023;
+                    border-color: #ee4023;
+                    &:hover {
+                        color: #fff;
+                        background-color: #ee4023;
+                    }
+                }
+                &--it {
+                    color: #6a453c;
+                    border-color: #6a453c;
+                    &:hover {
+                        color: #fff;
+                        background-color: #6a453c;
+                    }
+                }
+            }
+        }
+        &--app {
+            @extend .col-4;
+        }
+    }
+    &__menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        &--inline .footer__item {
+            display: inline-block;
+        }
+    }
+    &__item {
+        padding: 5px 0;
+    }
+    &__link {
+        text-decoration: none;
+        color: #666;
+    }
+    &__bottom {
+        padding: 15px;
+    }
+    &__info {    
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        text-align: center;
+        background: #f2f2f2;
+    }
+}

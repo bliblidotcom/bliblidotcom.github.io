@@ -1,0 +1,27 @@
+
+/**
+ * Page content
+ */
+.text-center
+{
+    text-align: center;
+}
+.page-content
+{
+   padding: 5.5em 0 2em;
+}
+
+.page-heading
+{
+    font-size: 20px;
+}
+
+.post-list
+{
+    margin-left: 0;
+    list-style: none;
+    > li
+    {
+        margin-bottom: 1em;
+    }
+}

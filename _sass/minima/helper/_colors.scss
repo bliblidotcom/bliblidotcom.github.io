@@ -1,0 +1,66 @@
+// primary color
+$white 			: #fff !default;
+$black 			: #000 !default;
+$grey           : #999 !default;
+$red			: #F8011E !default;
+$green			: #00B35E !default;
+$lime			: #89C747 !default;
+$blue 			: #0096D9 !default;
+$yellow		    : #ff9700 !default;
+$orange			: #F7931E !default;
+$brown 		    : #6A453C !default;
+$magenta		: #F50089 !default;
+
+// social media
+$facebook-color     : #4C66A4;
+$googleplus-color   : #DD4B39;
+$pinterest-color    : #CB2027;
+$twitter-color      : #2FC2EF;
+$youtube-color      : #CD201F;
+$instagram-color    : #262626;
+
+// secondary color
+$black-dark 	    : darken($black,10%) !default;
+$black-darker       : darken($black,20%) !default;
+$black-light        : lighten($black,10%) !default;
+$black-lighter      : lighten($black,20%) !default;
+
+$blue-dark	        : darken($blue,10%) !default;
+$blue-darker	    : darken($blue,20%) !default;
+$blue-light	        : lighten($blue,10%) !default;
+$blue-lighter       : lighten($blue,20%) !default;
+
+$green-dark	        : darken($green,10%) !default;
+$green-darker       : darken($green,20%) !default;
+$green-light	    : lighten($green,10%) !default;
+$green-lighter      : lighten($green,20%) !default;
+
+$grey-dark 	        : #333 !default;
+$grey-darker        : #666 !default;
+$grey-light 	    : #CCC !default;
+$grey-lighter       : #F2F2F2 !default;
+
+$orange-dark        : darken($orange,10%) !default;
+$orange-darker      : darken($orange,20%) !default;
+$orange-light       : lighten($orange,10%) !default;
+$orange-lighter     : lighten($orange,20%) !default;
+
+$red-dark 	        : darken($red,10%) !default;
+$red-darker 	    : darken($red,20%) !default;
+$red-light 	        : lighten($red,10%) !default;
+$red-lighter        : lighten($red,20%) !default;
+
+$brown-dark 	    : darken($brown,10%) !default;
+$brown-darker       : darken($brown,20%) !default;
+$brown-light	    : lighten($brown,10%) !default;
+$brown-lighter      : lighten($brown,20%) !default;
+
+$yellow-lighter	    : lighten(yellow,20%) !default;
+
+$buttonVariansName  : green, red, blue, orange, gray, white;
+$buttonVariansHex   : $green, $red, $blue, $orange, $grey, $white;
+$buttonVariansHover : $green-light, $red-light, $blue-light, $orange-light, $grey-light, $white;
+$buttonVariansFont  : $white, $white, $white, $white, $black, $black;
+
+$brand-color : $blue;
+$background-color : $grey-light;
